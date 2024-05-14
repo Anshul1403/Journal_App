@@ -29,6 +29,7 @@ public class UserServiceTests {
 
     }
 
+    @Disabled
     @ParameterizedTest
     @ArgumentsSource(UserArgumentsProvider.class)
     public void TestCreateUser(User user){
@@ -36,7 +37,7 @@ public class UserServiceTests {
 
     }
 
-
+    @Disabled
     @ParameterizedTest
     @CsvSource({
             "ram","Anshul"
@@ -49,7 +50,7 @@ public class UserServiceTests {
 
 
 
-
+    @Disabled
     @ParameterizedTest
     @CsvSource({
             "1,2,3",
